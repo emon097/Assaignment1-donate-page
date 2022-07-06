@@ -104,8 +104,21 @@ margin:0 auto;}
         padding: 2%;
         border-radius: 12px; 
       }
-
-                     
+ .headline{ text-align: center; 
+    color:indianred}     
+    .project-flex{ display: flex;margin: 70px;}
+ 
+    .first-image{ border-radius:5%;
+                 margin-left: 80px;
+               height:552px ; }
+    .project{font-size: 30px;
+             padding: 2%;
+             margin-left: 8%}
+    .first-image2{ border-radius:5%;
+      margin-left: 2px; 
+      width: 700px;
+       height: 552px;}
+      .my-p{ display:flex}      
                                        
 
 
