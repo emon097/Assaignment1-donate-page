@@ -35,26 +35,25 @@ margin:0 auto;}
                     margin-top: 2px;
                     }
 .donate-amount-100 { color:rgb(0, 0, 0);
-                   background-color:bisque;
+                   background-color: rgb(255, 250, 205) ;
                    padding: 3%; 
                     }
 .donate-amount-200{ color:rgb(2, 3, 2);
-                    background-color:bisque;
+                    background-color:rgb(255, 250, 205);
                     padding: 3%; 
                     }
 .donate-amount-500{ color:rgb(6, 6, 6);
-                    background-color:bisque;
+                    background-color: rgb(255, 250, 205);
                     padding: 3%; 
                     }
 .donate-amount-1000{ padding: 3%;
-                    background-color: rgb(230, 208, 143);
+                    background-color: rgb(255, 250, 205);
                     border: solid 4px;
                     color: rgb(10, 10, 10);
      }
-.donate-amount-5000{ color:rgb(9, 9, 9);
-                     background-color:bisque;
-                     padding: 3%; 
-                     }
+     .donate-amount-5000{ color:rgb(6, 6, 6);
+                          background-color: rgb(255, 250, 205);
+                           padding: 3%;}
 
 .amount-input-box{
                    border-width: 0px 0px 0px;
@@ -66,22 +65,45 @@ margin:0 auto;}
                    } 
 #placeholder-extar-padding{
    border-bottom: 2px solid rgb(138, 138, 138);
-                           
+                          
                             }
 
 
-
-.second-link{ text-decoration: none;
-   color: rgb(255, 255, 255); 
-   background-color: rgb(252, 114, 2); 
-   padding: 8px;
-   border-radius: 10px;
-   text-align: center;
-   justify-content:center;
+.link-justification2{position: absolute;
+   text-decoration: none;
+   background-color:darkorange;
+   color: #fff;
+   border:none; 
    display: flex;
-   margin: 30px auto;
-   width: 100px;
+   justify-content: center;
+   border-radius:10px; 
+   padding:15px;
+   right: 45%;
+   margin-top:1%;
 }
+.third-part{ text-align: center;
+   margin-top: 75px;
+   font-size: 31px;
+   padding: 15px;
+}
+.flexible1{display: flex; 
+    margin: 50px;}
+
+   .flexible1 img { width: 100px;
+    }
+.one{ background-color:cornsilk;
+      margin-left: 20px;
+      padding: 2%;
+      border-radius: 12px; }
+.two {background-color: bisque;
+      margin-left: 20px;
+      padding: 2%;
+      border-radius: 12px; }
+.three{ background-color: burlywood;
+        margin-left: 20px; 
+        padding: 2%;
+        border-radius: 12px; 
+      }
 
                      
                                        
