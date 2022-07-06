@@ -118,7 +118,20 @@ margin:0 auto;}
       margin-left: 2px; 
       width: 700px;
        height: 552px;}
-      .my-p{ display:flex}      
+      .my-p{ display:flex} 
+      .read1{ margin-left: 80px;text-decoration: none;    padding: 3%;
+               
+               color: aliceblue;
+               font-size: 25px;
+               border-radius: 10px;
+               background-color: coral; }
+      .read2{ text-decoration: none; padding: 3%;
+              
+              font-size: 25px;
+              background-color: coral; 
+              color: aliceblue;
+              border-radius: 10px;
+              }    
                                        
 
 
