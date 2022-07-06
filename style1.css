@@ -1,0 +1,52 @@
+body{ font-family: 'Splash', cursive;
+margin:0 auto;}
+.first-part{ text-align: center;
+            background-image: url(images/donation6.jpg);
+            color: azure;
+            background-repeat: no-repeat;
+            height: 100%;
+            font-size: 25px;
+            width: 100%px;
+            background-size: cover;
+            background-position: center;  
+         }
+.donate-main-pages{padding-top:180px;
+                  padding-bottom: 110px;
+                  color: aliceblue;
+                  backdrop-filter: blur(3px);
+                  padding-left: 12%;
+                  padding-right:12%;
+               } 
+.link-justification {text-decoration: none;
+                    color: aliceblue; 
+                    background-color: darkorange; 
+                    padding: 6px;
+                    border-radius: 10px;
+                    }          
+.second-part       { text-align: center; }
+.second-part2       { display: flex;
+                    padding-left: 30%;
+                    gap: 40px;
+                    }
+.donate-amount-100 { color:aquamarine;
+                   background-color:bisque;
+                   padding: 3%; 
+                    }
+.donate-amount-200{ color:aquamarine;
+    background-color:bisque;
+    padding: 3%; 
+     }
+.donate-amount-500{ color:aquamarine;
+    background-color:bisque;
+    padding: 3%; 
+     }
+.donate-amount-1000{
+     }
+.donate-amount-5000{ color:aquamarine;
+    background-color:bisque;
+    padding: 3%; 
+     }
+                                       
+
+
+ 
