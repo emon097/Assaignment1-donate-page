@@ -16,6 +16,7 @@ margin:0 auto;}
                   backdrop-filter: blur(3px);
                   padding-left: 12%;
                   padding-right:12%;
+                  font-size: 36px;
                } 
 .link-justification {text-decoration: none;
                     color: aliceblue; 
@@ -23,29 +24,66 @@ margin:0 auto;}
                     padding: 6px;
                     border-radius: 10px;
                     }          
-.second-part       { text-align: center; }
+.second-part       { text-align: center;
+                   margin-top: 75px;
+                   font-size: 31px;
+                   padding: 20px;
+                     }
 .second-part2       { display: flex;
-                    padding-left: 30%;
+                    padding-left:28% ;
                     gap: 40px;
+                    margin-top: 2px;
                     }
-.donate-amount-100 { color:aquamarine;
+.donate-amount-100 { color:rgb(0, 0, 0);
                    background-color:bisque;
                    padding: 3%; 
                     }
-.donate-amount-200{ color:aquamarine;
-    background-color:bisque;
-    padding: 3%; 
+.donate-amount-200{ color:rgb(2, 3, 2);
+                    background-color:bisque;
+                    padding: 3%; 
+                    }
+.donate-amount-500{ color:rgb(6, 6, 6);
+                    background-color:bisque;
+                    padding: 3%; 
+                    }
+.donate-amount-1000{ padding: 3%;
+                    background-color: rgb(230, 208, 143);
+                    border: solid 4px;
+                    color: rgb(10, 10, 10);
      }
-.donate-amount-500{ color:aquamarine;
-    background-color:bisque;
-    padding: 3%; 
-     }
-.donate-amount-1000{
-     }
-.donate-amount-5000{ color:aquamarine;
-    background-color:bisque;
-    padding: 3%; 
-     }
+.donate-amount-5000{ color:rgb(9, 9, 9);
+                     background-color:bisque;
+                     padding: 3%; 
+                     }
+
+.amount-input-box{
+                   border-width: 0px 0px 0px;
+                   border-color: rgb(82, 63, 7);
+                   text-align: center;
+                   margin: auto;
+                   display: block;
+                   margin-top: 40px;
+                   } 
+#placeholder-extar-padding{
+   border-bottom: 2px solid rgb(138, 138, 138);
+                           
+                            }
+
+
+
+.second-link{ text-decoration: none;
+   color: rgb(255, 255, 255); 
+   background-color: rgb(252, 114, 2); 
+   padding: 8px;
+   border-radius: 10px;
+   text-align: center;
+   justify-content:center;
+   display: flex;
+   margin: 30px auto;
+   width: 100px;
+}
+
+                     
                                        
 
 
