@@ -1,4 +1,5 @@
-body{ font-family: 'Splash', cursive;
+body{ font-family: 'Rubik', sans-serif;
+
 margin:0 auto;}
 .first-part{ text-align: center;
             background-image: url(images/donation6.jpg);
@@ -27,32 +28,32 @@ margin:0 auto;}
 .second-part       { text-align: center;
                    margin-top: 75px;
                    font-size: 31px;
-                   padding: 20px;
-                     }
+                   padding: 20px;}
+                     
 .second-part2       { display: flex;
                     padding-left:28% ;
                     gap: 40px;
-                    margin-top: 2px;
-                    }
+                    margin-top: 2px;}
+                    
 .donate-amount-100 { color:rgb(0, 0, 0);
-                   background-color: rgb(255, 250, 205) ;
-                   padding: 3%; 
-                    }
+                   background-color: rgb(214, 214, 214) ;
+                   padding: 3%;} 
+                    
 .donate-amount-200{ color:rgb(2, 3, 2);
-                    background-color:rgb(255, 250, 205);
-                    padding: 3%; 
-                    }
+                    background-color:rgb(214, 214, 214);
+                    padding: 3%; }
+                    
 .donate-amount-500{ color:rgb(6, 6, 6);
-                    background-color: rgb(255, 250, 205);
-                    padding: 3%; 
-                    }
+                    background-color: rgb(214, 214, 214);
+                    padding: 3%;}
+                    
 .donate-amount-1000{ padding: 3%;
-                    background-color: rgb(255, 250, 205);
+                    background-color: rgb(214, 214, 214);
                     border: solid 4px;
-                    color: rgb(10, 10, 10);
-     }
+                    color: rgb(10, 10, 10);}
+
      .donate-amount-5000{ color:rgb(6, 6, 6);
-                          background-color: rgb(255, 250, 205);
+                          background-color: rgb(214, 214, 214);
                            padding: 3%;}
 
 .amount-input-box{
@@ -63,23 +64,24 @@ margin:0 auto;}
                    display: block;
                    margin-top: 40px;
                    } 
-#placeholder-extar-padding{
-   border-bottom: 2px solid rgb(138, 138, 138);
+#placeholder-extar-padding{ border: none;
+                           outline: none;
+                           border-bottom: 2px solid rgb(138, 138, 138);
                           
                             }
 
 
 .link-justification2{position: absolute;
-   text-decoration: none;
-   background-color:darkorange;
-   color: #fff;
-   border:none; 
-   display: flex;
-   justify-content: center;
-   border-radius:10px; 
-   padding:15px;
-   right: 45%;
-   margin-top:1%;
+                      text-decoration: none;
+                      background-color:darkorange;
+                      color: #fff;
+                      border:none; 
+                      display: flex;
+                      justify-content: center;
+                      border-radius:10px; 
+                      padding:15px;
+                      right: 45%;
+                      margin-top:1%;
 }
 .third-part{ text-align: center;
    margin-top: 75px;
@@ -105,7 +107,10 @@ margin:0 auto;}
         border-radius: 12px; 
       }
  .headline{ text-align: center; 
-    color:indianred}     
+            font-size: 45px; 
+            color:rgb(255, 255, 255);background-color:rgb(248, 174, 84) ;
+            margin-top: 120px; 
+             }     
     .project-flex{ display: flex;margin: 70px;}
  
     .first-image{ border-radius:5%;
@@ -115,11 +120,11 @@ margin:0 auto;}
              padding: 2%;
              margin-left: 8%}
     .first-image2{ border-radius:5%;
-      margin-left: 2px; 
-      width: 700px;
-       height: 552px;}
-      .my-p{ display:flex} 
-      .read1{ margin-left: 80px;text-decoration: none;    padding: 3%;
+                    margin-left: 2px; 
+                    width: 700px;
+                    height: 552px;}
+                    .my-p{ display:flex} 
+                    .read1{ margin-left: 80px;text-decoration: none;    padding: 3%;
                
                color: aliceblue;
                font-size: 25px;
@@ -131,8 +136,52 @@ margin:0 auto;}
               background-color: coral; 
               color: aliceblue;
               border-radius: 10px;
-              }    
-                                       
+              }
+ .sixpart{text-align: center; margin-top: 200px; 
+          font-size: 30px; padding: 8%;  }                 
+.place-holder-box{ position:absolute;
+                  right: 23%; display:flex;
+                  background-color: bisque;
+                  padding-left: 10%;
+                  padding-right: 10%;
+                  padding-top: 7%;
+                  padding-bottom:7%;
+                  }                                      
+input{ position: relative;
+       display: inline-block;
+       font-size: 25px;
+       border: none;
+       box-sizing: border-box;
+      }
+.text-box{ background: rgb(192, 194, 194);
+           width: 400px; 
+           height: 55px;
+           border: none;
+           outline: none;  
+           padding:  27px; 
+           border-radius: 15px 0 0 15px;
+           } 
 
+.submit-box{ border-radius: 0px 10px 10px 0px;
+             border: none;
+             outline: none;
+             width: 180px; 
+             height: 55px;
+             color:whitesmoke;
+             background-color: coral;
+             right: 10px;}                
 
- 
+.footer-last-part{ text-align: center;
+                    margin-top: 500px;
+                    background-color: burlywood;
+                    padding-top: 20px;
+                    padding-bottom: 20px;}  
+             span{ color: rgb(255, 69, 1); } 
+ .foundation-name{ color: rgb(255, 255, 255); 
+                   background-color: darkorange;
+                   border-radius: 10px;
+                   padding: 4px;}
+
+                    
+             
+             
